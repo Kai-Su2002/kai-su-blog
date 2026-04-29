@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Personal blog powered by Hexo and Butterfly.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
