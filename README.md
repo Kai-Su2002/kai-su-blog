@@ -2,6 +2,8 @@
 
 Personal blog powered by Hexo and the Butterfly theme.
 
+The Butterfly theme is installed as a Git submodule at `themes/butterfly`.
+
 ## Local Development
 
 ```sh
@@ -16,6 +18,12 @@ npm run build
 ```
 
 The generated static site is written to `public/`.
+
+If you clone this repository manually, initialize the theme submodule first:
+
+```sh
+git submodule update --init --recursive
+```
 
 ## Cloudflare Pages
 

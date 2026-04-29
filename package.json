@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "hexo generate",
+    "build": "git submodule update --init --recursive && hexo generate",
     "clean": "hexo clean",
     "server": "hexo server",
     "new": "hexo new"
@@ -25,7 +25,6 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
-    "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^5.4.2"
+    "hexo-server": "^3.0.0"
   }
 }
