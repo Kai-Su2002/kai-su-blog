@@ -32,6 +32,11 @@ cover:
   position: both
   default_cover:
 
+error_404:
+  enable: true
+  subtitle: 页面没有找到
+  background: /img/error-page.png
+
 post_meta:
   page:
     date_type: created
