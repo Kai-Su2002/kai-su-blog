@@ -1,9 +1,9 @@
 # Site
-title: Kai Su 的个人博客
+title: loyality
 subtitle: 记录技术、学习与生活
-description: Kai Su 的个人博客，使用 Hexo 和 Butterfly 构建。
+description: loyality 的个人博客，使用 Hexo 和 Butterfly 构建。
 keywords: blog, hexo, butterfly
-author: Kai Su
+author: loyality
 language: zh-CN
 timezone: Asia/Taipei
 
@@ -76,6 +76,13 @@ pagination_dir: page
 
 # Extensions
 theme: butterfly
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
 # Deployment
 deploy:

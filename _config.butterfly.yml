@@ -4,9 +4,7 @@
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  关于: /about/ || fas fa-user
+  语言: "javascript:window.translateFn&&window.translateFn.translatePage() || fas fa-language"
 
 nav:
   logo:
@@ -24,6 +22,21 @@ default_top_img:
 archive_img:
 tag_img:
 category_img:
+
+subtitle:
+  enable: true
+  effect: false
+  typed_option:
+  source: false
+  sub:
+    - 梨花落雪染衣襟，
+    - 一笔春光入画深。
+    - 眉间藏了三分月，
+    - 眼底流着万里云。
+    - 衣袂轻扬风自懂，
+    - 梨香暗渡夜无声。
+    - 绘你不需丹青手，
+    - 只消一眼，便是诗。
 
 cover:
   index_enable: true
@@ -102,8 +115,25 @@ footer:
   custom_text:
   copyright: true
 
-local_search:
-  enable: false
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+  translateDelay: 0
+  msgToTraditionalChinese: 繁
+  msgToSimplifiedChinese: 簡
+
+search:
+  use: local_search
+  placeholder: 搜索文章
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: false
+      hitsPerPage: 8
+    CDN:
 
 comments:
   use:
