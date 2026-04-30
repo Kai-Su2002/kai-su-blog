@@ -9,7 +9,7 @@ timezone: Asia/Taipei
 
 # URL
 # Replace this with your Cloudflare Pages URL after the first deployment.
-url: https://kai-su-blog.pages.dev
+url: https://kai-su-blog.sukai9362.workers.dev
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
