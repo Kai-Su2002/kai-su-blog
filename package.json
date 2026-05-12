@@ -10,7 +10,9 @@
     "build": "git submodule update --init --recursive && hexo generate",
     "clean": "hexo clean",
     "server": "hexo server",
-    "new": "hexo new"
+    "new": "hexo new",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "hexo": {
     "version": "7.3.0"
@@ -27,5 +29,8 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.86.0"
   }
 }
